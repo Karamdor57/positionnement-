@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.bleu {
+    background-color: blue;
+    border: black solid 5px;
+    width: 400px;
+    height: 400px;
+}
+.vert{
+    background-color: green;
+    border: black solid 5px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+.rouge{
+    background-color: red;
+    border: black solid 5px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+}
