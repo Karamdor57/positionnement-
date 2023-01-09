@@ -1,0 +1,48 @@
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.bleu {
+    background-color: blue;
+    border: black solid 5px;
+    width: 641px;
+    height: 280px;
+    position:absolute;
+    left: 510px;
+    top: 291px;
+    z-index:2
+}
+.vert{
+    background-color: green;
+    border: black solid 5px;
+    position: absolute;
+    width: 1550px;
+    height: 149px;
+    top: -10px;
+}
+.rouge{
+    background-color: red;
+    border: black solid 5px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 127px;
+    right: 302px;
+    z-index:3
+}
+.jaune{
+    background-color: yellow;
+    border: black solid 5px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 325px;
+    left: 688px;
+    z-index: 3;
+}
